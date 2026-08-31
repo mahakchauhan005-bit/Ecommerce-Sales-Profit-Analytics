@@ -1,8 +1,12 @@
-# 🧱 Fact Data
+# 🧱 Fact Tables
 
-This folder is reserved for processed transactional fact tables used during the analytics workflow.
+The Power BI data model uses the following transactional fact tables:
 
-Examples include:
+- **FactOrders** - order-level transaction data
+- **FactOrderItems** - product-item-level transaction data
 
-- FactOrders
-- FactOrderItems
+These tables are modeled directly in Power BI and are not stored as separate CSV files in this repository.
+
+## Purpose
+
+Fact tables contain measurable business events and transaction records used for revenue, order, freight, item-volume, and delivery analysis.
