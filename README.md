@@ -5,30 +5,118 @@ End-to-end e-commerce analytics project built with Python, SQL, Excel, Power BI,
 This portfolio project covers the full analytics workflow from data preparation and exploratory analysis to customer segmentation, SQL business analytics, Excel reporting, and an interactive Power BI dashboard.
 
 📊 Dashboard Preview
-
+---
 🏠 Executive Summary
 
+The Executive Summary provides a high-level view of overall e-commerce performance.
 
+### KPIs
+
+| KPI | Value |
+|---|---:|
+| Total Revenue | 13.59M |
+| Total Orders | 98.67K |
+| Total Customers | 95.42K |
+| Average Order Value | 136.68 |
+| Total Freight | 2.25M |
+| Late Delivery Rate | 8.11% |
+
+### Key Visuals
+
+- Monthly Revenue Trend
+- Monthly Order Volume
+- Top 10 Product Categories by Revenue
+- Revenue by Customer Segment
+- Average Delivery Days by Month
+- Interactive Year, Customer State, and Product Category slicers
+
+### 📷 Executive Summary
+
+![Executive Summary](images/executive_summary.png)
+
+---
 
 🛍️ Product Performance Analysis
+This page focuses on product-category performance, sales volume, and the relationship between product volume and revenue.
 
+### Key Visuals
 
+- Top 10 Product Categories by Revenue
+- Top 10 Product Categories by Items Sold
+- Average Selling Price by Product Category
+- Product Volume vs Revenue
+
+### 📷 Product Performance
+
+![Product Performance Analysis](images/product_performance.png)
+
+---
 
 👥 Customer & Segment Analysis
 
+This page focuses on customer behavior, customer value, and RFM-style customer segmentation.
 
+### Customer Segments
+
+- **At Risk**
+- **Regular Customers**
+- **Champions**
+
+### Key Visuals
+
+- Revenue by Customer Segment
+- Customers by Segment
+- Top 10 States by Revenue
+- Revenue per Customer by Segment
+- Interactive customer-segment filtering
+
+### 📷 Customer & Segment Analysis
+
+![Customer & Segment Analysis](images/customer_segment_analysis.png)
+
+---
 
 🚚 Delivery Performance Analysis
 
+This page focuses on delivery performance and operational efficiency.
 
+### Key Visuals
 
+- Late Delivery Rate vs 5% Target
+- Delivered vs Late Orders
+- Average Delivery Days by State
+- Average Delivery Days Trend
+- Interactive Year, Customer State, and Order Status filters
+
+### 📷 Delivery Performance
+
+![Delivery Performance Analysis](images/delivery_performance.png)
+
+---
+
+# 🔎 Advanced Power BI Features
+
+The report demonstrates:
+
+- Page navigation
+- Interactive slicers
+- Synced slicers
+- Product-category drill-through
+- Report-page tooltip
+- KPI target gauge
+- Star-schema data modeling
+- DAX measures
+- Interactive filtering
+- Time-based analysis
 🔎 Product Detail Drill-through
 
-
+![Product Detail Drill-through](images/product_detail.png)
 
 💡 Product Performance Tooltip
 
+![Product Performance Tooltip](images/product_tooltip.png)
 
+---
 
 🔎 Project Overview
 
