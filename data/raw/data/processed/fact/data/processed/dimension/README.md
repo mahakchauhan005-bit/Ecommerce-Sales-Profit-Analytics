@@ -1,11 +1,15 @@
-# 🧩 Dimension Data
+# 🧩 Dimension Tables
 
-This folder is reserved for processed dimension tables used during the analytics workflow.
+The Power BI data model uses the following dimension tables:
 
-Examples include:
+- **DimCustomers** - customer attributes and customer information
+- **DimCustomerSegments** - RFM-style customer segmentation
+- **DimProducts** - product attributes and English product categories
+- **DimSellers** - seller attributes
+- **DateTable** - calendar and reporting dates
 
-- DimCustomers
-- DimCustomerSegments
-- DimProducts
-- DimSellers
-- DateTable
+These tables are modeled directly in Power BI and are not stored as separate CSV files in this repository.
+
+## Purpose
+
+Dimension tables provide descriptive attributes used to filter, group, and analyze the transactional fact tables.
