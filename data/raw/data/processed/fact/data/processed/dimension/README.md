@@ -1,15 +1,19 @@
-# 🧩 Dimension Tables
+## 📂 Processed Data
 
-The Power BI data model uses the following dimension tables:
+### Fact Tables
 
-- **DimCustomers** - customer attributes and customer information
-- **DimCustomerSegments** - RFM-style customer segmentation
-- **DimProducts** - product attributes and English product categories
-- **DimSellers** - seller attributes
-- **DateTable** - calendar and reporting dates
+- [FactOrders Preview](data/processed/fact/FactOrders_preview.csv)
+- [FactOrders Full Dataset](data/processed/fact/FactOrders.csv)
+- [FactOrderItems Preview](data/processed/fact/FactOrderItems_preview.csv)
+- [FactOrderItems Full Dataset](data/processed/fact/FactOrderItems.csv)
 
-These tables are modeled directly in Power BI and are not stored as separate CSV files in this repository.
+### Dimension Tables
 
-## Purpose
-
-Dimension tables provide descriptive attributes used to filter, group, and analyze the transactional fact tables.
+- [DateTable](data/processed/dimension/DateTable.csv)
+- [DimSellers](data/processed/dimension/DimSellers.csv)
+- [DimCustomers Preview](data/processed/dimension/DimCustomers_preview.csv)
+- [DimCustomers Full Dataset](data/processed/dimension/DimCustomers.csv)
+- [DimCustomerSegments Preview](data/processed/dimension/DimCustomerSegments_preview.csv)
+- [DimCustomerSegments Full Dataset](data/processed/dimension/DimCustomerSegments.csv)
+- [DimProducts Preview](data/processed/dimension/DimProducts_preview.csv)
+- [DimProducts Full Dataset](data/processed/dimension/DimProducts.csv)
